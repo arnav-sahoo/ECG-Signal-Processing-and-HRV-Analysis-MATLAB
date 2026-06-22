@@ -174,15 +174,15 @@ ECG-Signal-Processing-and-HRV-Analysis-MATLAB/
 │   ├── 09_rr_interval_histogram.png
 │   │
 │   └── signal_analyzer_filtering_workflow/
-│       ├── 01_raw_ecg_roi_with_peak_annotations
+│       ├── 01_raw_ecg_roi_with_peak_annotations.png
 │       ├── 02_lowpass_filter_output.png
-│       ├── 03_lowpass_highpass_filter_output
-│       ├── 04_lowpass_highpass_notch_filter_output
-│       ├── 05_final_filtered_ecg_with_r_peak_annotations
-│       ├── 06_raw_to_lowpass_comparison
-│       ├── 07_raw_to_lp_to_hp_comparison
-│       ├── 08_full_filtering_pipeline_comparison
-│       └── 09_raw_vs_final_filtered_comparison
+│       ├── 03_lowpass_highpass_filter_output.png
+│       ├── 04_lowpass_highpass_notch_filter_output.png
+│       ├── 05_final_filtered_ecg_with_r_peak_annotations.png
+│       ├── 06_raw_to_lowpass_comparison.png
+│       ├── 07_raw_to_lp_to_hp_comparison.png
+│       ├── 08_full_filtering_pipeline_comparison.png
+│       └── 09_raw_vs_final_filtered_comparison.png
 │
 └── docs/
     └── ECG_Filtering_Workflow.mldatx

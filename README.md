@@ -144,8 +144,8 @@ Contains:
 
 ## MATLAB Documentation
 
-- `docs/ECG_Filtering_Workflow.mldatx`  
-  MATLAB Signal Analyzer workflow file containing the ECG preprocessing pipeline, intermediate filtering stages, and figure generation workflow.
+### `docs/ECG_Filtering_Workflow.mldatx`  
+MATLAB Signal Analyzer workflow file containing the ECG preprocessing pipeline, intermediate filtering stages, and figure generation workflow.
 
 ---
 

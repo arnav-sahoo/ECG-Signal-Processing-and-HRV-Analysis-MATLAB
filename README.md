@@ -157,13 +157,25 @@ ECG-Signal-Processing-and-HRV-Analysis-MATLAB/
 │   └── ProcessedSignals.mat
 │
 ├── figures/
-│   ├── raw_ecg.png
-│   ├── filtering_pipeline.png
-│   ├── filtered_ecg_2000samples.png
-│   ├── detected_r_peaks.png
-│   ├── threshold_sensitivity_comparison.png
-│   ├── rr_tachogram.png
-│   └── rr_histogram.png
+│   ├── 01_raw_ecg_full_signal.png
+│   ├── 02_raw_ecg_first_2000_samples.png
+│   ├── 04_filtered_ecg_full_signal.png
+│   ├── 05_filtered_ecg_first_2000_samples.png
+│   ├── 06_detected_r_peaks.png
+│   ├── 07_effect_of_peak_detection_threshold.png
+│   ├── 08_rr_interval_tachogram.png
+│   ├── 09_rr_interval_histogram.png
+│   │
+│   └── signal_analyzer_filtering_workflow/
+│       ├── 01_raw_ecg_roi_with_peak_annotations
+│       ├── 02_lowpass_filter_output.png
+│       ├── 03_lowpass_highpass_filter_output
+│       ├── 04_lowpass_highpass_notch_filter_output
+│       ├── 05_final_filtered_ecg_with_r_peak_annotations
+│       ├── 06_raw_to_lowpass_comparison
+│       ├── 07_raw_to_lp_to_hp_comparison
+│       ├── 08_full_filtering_pipeline_comparison
+│       └── 09_raw_vs_final_filtered_comparison
 │
 └── docs/
     └── ECG_Filtering_Workflow.mldatx
@@ -172,14 +184,63 @@ ECG-Signal-Processing-and-HRV-Analysis-MATLAB/
 ---
 
 ## Figures
-Suggested figure set for this repository:
-1. Raw ECG segment
-2. Filtering pipeline comparison
-3. Final filtered ECG (first 2000 samples)
-4. R-peak detection result
-5. Threshold sensitivity comparison
-6. RR interval tachogram
-7. RR interval histogram
+
+Figure set for this repository:
+
+### Main project figures
+
+1. Raw ECG full signal  
+   `figures/01_raw_ecg_full_signal.png`
+
+2. Raw ECG first 2000 samples  
+   `figures/02_raw_ecg_first_2000_samples.png`
+
+3. Filtered ECG full signal  
+   `figures/04_filtered_ecg_full_signal.png`
+
+4. Filtered ECG first 2000 samples  
+   `figures/05_filtered_ecg_first_2000_samples.png`
+
+5. Detected R-peaks on filtered ECG  
+   `figures/06_detected_r_peaks.png`
+
+6. Effect of peak detection threshold on ECG feature extraction  
+   `figures/07_effect_of_peak_detection_threshold.png`
+
+7. RR interval tachogram  
+   `figures/08_rr_interval_tachogram.png`
+
+8. RR interval histogram  
+   `figures/09_rr_interval_histogram.png`
+
+### Signal Analyzer filtering workflow figures
+
+9. Raw ECG ROI with peak annotations  
+   `figures/signal_analyzer_filtering_workflow/01_raw_ecg_roi_with_peak_annotations.png`
+
+10. Low-pass filter output  
+    `figures/signal_analyzer_filtering_workflow/02_lowpass_filter_output.png`
+
+11. Low-pass + high-pass filter output  
+    `figures/signal_analyzer_filtering_workflow/03_lowpass_highpass_filter_output.png`
+
+12. Low-pass + high-pass + notch filter output  
+    `figures/signal_analyzer_filtering_workflow/04_lowpass_highpass_notch_filter_output.png`
+
+13. Final filtered ECG with R-peak annotations  
+    `figures/signal_analyzer_filtering_workflow/05_final_filtered_ecg_with_r_peak_annotations.png`
+
+14. Raw to low-pass comparison  
+    `figures/signal_analyzer_filtering_workflow/06_raw_to_lowpass_comparison.png`
+
+15. Raw to low-pass to high-pass comparison  
+    `figures/signal_analyzer_filtering_workflow/07_raw_to_lp_to_hp_comparison.png`
+
+16. Full filtering pipeline comparison  
+    `figures/signal_analyzer_filtering_workflow/08_full_filtering_pipeline_comparison.png`
+
+17. Raw vs final filtered comparison  
+    `figures/signal_analyzer_filtering_workflow/09_raw_vs_final_filtered_comparison.png`
 
 ---
 
